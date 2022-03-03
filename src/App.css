@@ -2,36 +2,60 @@
 
 
 .App {
-  background-color: #282c34;
+  background-color: #e6e7e9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(8, 8, 8);
   font-family: Industry;
   text-align: center;
 }
 
 .App-header {
-  min-height: 15vh;
+  background-color: #6e9cf8;
+    min-height: 6vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 2vmin);
 }
 
 .customCard {
   background-color: unset !important;
+  display: flex;
   font-family: Industry;
-  margin-top: 10%;
+  font-size: calc(2px + 1vmin);
+  align-items: left;
+  margin-top: 1%;
 }
 
 .customCardBody {
-  margin-bottom: 20px;
+  margin-bottom: 1px;
+  align-items: left;
 }
 
 .userToggleBtn {
-  padding-right: 20px;
+  padding-right: 1px;
 }
 
+.customBtn {
+  display: inline-block;
+  font-weight: 200;
+  line-height: 0.8;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

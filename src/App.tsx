@@ -1,15 +1,15 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Menu } from "./components/Menu";
+import { Delivery } from "./components/Delivery";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="App-title">User Management System</h1>
+        <h1 className="App-title">納品先</h1>
       </header>
-      <Menu></Menu>
+      <Delivery></Delivery>
     </div>
   );
 }
