@@ -51,6 +51,7 @@ Initially created basic form which contain inputs, selectbox, number, dropdown f
 ### 3.6 validation<a id=section306></a>
 
 I have applied required field on the name input and same time applyed on the submit button to disable if value is null in the field.
+# 4 サンプル画面
 １．納品先一覧
 ![image](https://user-images.githubusercontent.com/84900813/156504360-14cf0a5e-b7d6-41d8-b139-094f91ca99b3.png)
 ２．詳細確認・更新
