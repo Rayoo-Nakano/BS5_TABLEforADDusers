@@ -27,13 +27,13 @@ Link2: https://rsuitejs.com/
 Link3: https://react-icons.github.io/react-icons
 
 上記内容を踏まえて、以下のコマンドで必要モジュールをインストール
-1. npmインストール
+1. npmインストール<br>
   npm i
-2. react-bootstrapとbootstrapをインストール
+2. react-bootstrapとbootstrapをインストール<br>
   npm i react-bootstrap bootstrap
-3. React Suiteインストール
+3. React Suiteインストール<br>
   npm i rsuite
-4. React Iconsインストール
+4. React Iconsインストール<br>
   npm i react-icons
 
 ## 3. UI Model and functionality<a id=section3></a>
