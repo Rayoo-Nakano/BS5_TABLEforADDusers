@@ -1,3 +1,7 @@
+# 注意事項
+
+1. react-scripts@5.0.0 は実行後（npm start）エラーがポップアップ出力されるので、npm audit fix --force を実行することで@2.1.3にダウングレードする。他のscriptの関係性を注意すること。
+
 # Table of Contents
 
 1. [Objective](#section1)<br>
@@ -47,11 +51,11 @@ Initially created basic form which contain inputs, selectbox, number, dropdown f
 ### 3.6 validation<a id=section306></a>
 
 I have applied required field on the name input and same time applyed on the submit button to disable if value is null in the field.
-
+１．納品先一覧
 ![image](https://user-images.githubusercontent.com/84900813/156504360-14cf0a5e-b7d6-41d8-b139-094f91ca99b3.png)
-
+２．詳細確認・更新
 ![image](https://user-images.githubusercontent.com/84900813/156504417-33177c5c-2e69-446e-858e-3a1eb27c4b25.png)
-
+３．削除
 ![image](https://user-images.githubusercontent.com/84900813/156504461-b372006a-e9c4-4105-bd09-0e248cff1c33.png)
 
 
