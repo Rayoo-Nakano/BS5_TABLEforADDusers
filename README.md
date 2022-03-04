@@ -1,6 +1,6 @@
 # 注意事項
 
-1. react-scripts@5.0.0 は実行後（npm start）エラーがポップアップ出力されるので、npm audit fix --force を実行することで@2.1.3にダウングレードする。他のscriptの関係性を注意すること。
+1. react-scripts@5.0.0 は実行後（npm start）エラーがポップアップ出力されるので、npm audit fix --force を実行することで@2.1.3にダウングレードする。他のscriptの関係性を注意すること。 @2.1.8が対応可能なLatest
 
 # Table of Contents
 

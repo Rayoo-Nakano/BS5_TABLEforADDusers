@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "examples/custom-multiple-themes"  ]
 }

@@ -159,9 +159,15 @@ export const Delivery = () => {
                   <tr>
                     <th>#</th>
                     <th>顧客名</th>
+                    <th>郵便番号</th>
                     <th>都道府県</th>
+                    <th>市区町村</th>
+                    <th>番地</th>
+                    <th>ビル名等</th>
                     <th>部署名</th>
                     <th>担当者</th>
+                    <th>電話番号</th>
+                    <th>電子メール</th>
                     <th>操作</th>
                   </tr>
                 </thead>
@@ -171,9 +177,15 @@ export const Delivery = () => {
                       <tr key={index}>
                         <td>{user.id}</td>
                         <td>{user.customer}</td>
+                        <td>{user.postcode}</td>
                         <td>{user.prefecture}</td>
+                        <td>{user.municipality}</td>
+                        <td>{user.address1}</td>
+                        <td>{user.address2}</td>
                         <td>{user.department}</td>
                         <td>{user.responsibleparty}</td>
+                        <td>{user.tel}</td>
+                        <td>{user.email}</td>
                         <td>
                           <Button
                             variant="info"
@@ -336,11 +348,11 @@ export const Delivery = () => {
               </Modal.Body>
               <Modal.Footer>
                 <Button variant="secondary" onClick={handleClose}>
-                  キャンセル
+                  Close
                 </Button>
                 {editing === true ? (
                   <Button variant="primary" type="submit" onClick={handleClose}>
-                    更新
+                    Update
                   </Button>
                 ) : (
                   <Button variant="primary" disabled={!newUser.customer} type="submit" onClick={handleClose}>
