@@ -26,8 +26,17 @@ Link1: https://react-bootstrap.netlify.app/getting-started/introduction,
 Link2: https://rsuitejs.com/
 Link3: https://react-icons.github.io/react-icons
 
-## 3. UI Model and functionality<a id=section3></a>
+上記内容を踏まえて、以下のコマンドで必要モジュールをインストール
+1. npmインストール
+  npm i
+2. react-bootstrapとbootstrapをインストール
+  npm i react-bootstrap bootstrap
+3. React Suiteインストール
+  npm i rsuite
+4. React Iconsインストール
+  npm i react-icons
 
+## 3. UI Model and functionality<a id=section3></a>
 
 ### 3.1 Card Component <a id=section301></a>
 In the beginning, to get the background color and to display table I have used card component as a base.
